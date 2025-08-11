@@ -81,10 +81,29 @@
     max-height: 540px;
     width: 100%;
     margin-bottom: 32px;
+    position: relative;
+
 }
 
+
+.custom-product-detail-page .custom-main-detail-section .custom-left-section .custom-product-image .swiper-slide{
+margin: auto;
+text-align: center;
+}
+
+
+.custom-product-detail-page .custom-main-detail-section .custom-left-section .custom-product-image .swiper-button-prev, .custom-product-detail-page .custom-main-detail-section .custom-left-section .custom-product-image .swiper-button-next{
+  color: #004F67;
+  background-color: #FBEFD3;
+  border-radius: 8px;
+}
+
+.custom-product-detail-page .custom-main-detail-section .custom-left-section .custom-product-image .swiper-button-prev::after, .custom-product-detail-page .custom-main-detail-section .custom-left-section .custom-product-image .swiper-button-next::after{
+  color: #004F67;
+  font-size: 30px;
+}
 .custom-product-detail-page .custom-main-detail-section .custom-left-section .custom-product-image img{
-    width: 100%;
+
 }
 
 .custom-product-detail-page .custom-main-detail-section .custom-left-section .custom-question-btn{
@@ -173,7 +192,8 @@ font-family: 'Carter One', cursive;
      padding: 24px;
      background-color: #004F67;
      border: 2px dashed #FBEFD3;
-    
+    position: sticky;
+    top: 35px;
      
 }
 
@@ -783,6 +803,10 @@ width: 92px;
  .custom-product-detail-page .custom-main-detail-section .custom-middle-section .custom-detail-box-text{
   font-size: 14px;
  }
+ .custom-product-detail-page .custom-main-detail-section .custom-left-section .custom-product-image .swiper-button-prev::after, .custom-product-detail-page .custom-main-detail-section .custom-left-section .custom-product-image .swiper-button-next::after{
+  color: #004F67;
+  font-size: 20px;
+}
 }
 
 /* Small devices (portrait tablets and large phones) */
